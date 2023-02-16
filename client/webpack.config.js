@@ -5,22 +5,22 @@ const { InjectManifest } = require("workbox-webpack-plugin");
 
 module.exports = () => {
   return {
-    mode: "development",
+    mode: 'development',
     //Entry point for files
     entry: {
-      main: "./src/js/index.js",
-      install: "./src/js/install.js",
-      editor: "./src/js/editor.js",
+      main: './src/js/index.js',
+      install: './src/js/install.js',
+      editor: './src/js/editor.js',
     },
     //Output for our bundles
     output: {
-      filename: "[name].bundle.js",
-      path: path.resolve(_dirname, "dist"),
+      filename: '[name].bundle.js',
+      path: path.resolve(_dirname, 'dist'),
     },
     plugins: [
       //Webpack plugin that generates the html file and injects our bbundles
       new HtmlWebpackPlugin({
-        template: "./index.html",
+        template: './index.html',
         title: "Text Editor",
       }),
 
