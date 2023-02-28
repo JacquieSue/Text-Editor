@@ -11,6 +11,11 @@ As a user, I need a web text editor that I can save and retrieve data from, whic
 - [License](#license)
 
 ## Installation
+
+ * npm i
+ 
+## Usage
+
 GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
@@ -36,10 +41,6 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
-
-## Usage
-
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 Jacquelyn Pulliam
