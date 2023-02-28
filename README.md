@@ -13,6 +13,7 @@ As a user, I need a web text editor that I can save and retrieve data from, whic
 ## Installation
 
  * npm i
+ * npm run start:dev
  
 ## Usage
 
@@ -41,6 +42,8 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
+
+<!-- ![Deployed on Heroku](../../Desktop/Screenshot%202023-02-28%20at%2012.47.26%20PM.png) -->
 
 ## Credits
 Jacquelyn Pulliam
